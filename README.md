@@ -41,7 +41,6 @@ python --version
 
 ```bash
 git clone https://github.com/TahaGTX/gesture-shooter-game-Python-.git
-cd gesture-shooter-game
 ```
 
 ---
