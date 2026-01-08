@@ -113,36 +113,6 @@ As your **score increases**:
 
 ---
 
-## 🧪 Common Issues & Fixes
-
-### ❌ `AttributeError: module 'mediapipe' has no attribute 'solutions'`
-
-Fix:
-
-```bash
-pip uninstall mediapipe -y
-pip install mediapipe==0.10.9
-```
-
-Also ensure:
-
-* There is **NO file named `mediapipe.py`** in your project folder.
-
----
-
-### ❌ Webcam Not Opening
-
-* Close Zoom / Teams / Camera apps
-* Ensure correct camera index in `game.py`:
-
-```python
-cv2.VideoCapture(0)
-```
-
-Try `1` if `0` doesn’t work.
-
----
-
 ## 📦 requirements.txt
 
 Create a file named `requirements.txt` with this content:
