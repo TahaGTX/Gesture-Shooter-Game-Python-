@@ -113,15 +113,6 @@ As your **score increases**:
 
 ---
 
-## 📦 requirements.txt
-
-Create a file named `requirements.txt` with this content:
-
-```
-opencv-python
-numpy
-mediapipe==0.10.9
-```
 
 ---
 
